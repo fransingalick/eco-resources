@@ -1,0 +1,657 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans';
+    font-size: 14px;
+    color: #6c7279;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+
+/* Header
+===================*/
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 182.09px;
+    height: 51px;
+    left: 628px;
+    top: 70px;
+}
+
+.header.fixed {
+    height: auto;
+
+    position: fixed;
+
+}
+
+.header.fixed .header__inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-bottom: 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+
+}
+
+
+/* Intro
+===================*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    padding-top: 100px;
+
+    background: url("./accerts/fon.jpg") center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+
+    /* text-align: center; */
+}
+
+.intro__title {
+    position: absolute;
+    width: 932px;
+    height: 86px;
+    left: 283px;
+    top: 236px;
+
+    /* Заголовок H0 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    font-variant: small-caps;
+    text-align: center;
+
+    /* белый */
+
+    color: #FFFFFF;
+
+
+}
+
+.intro__subtitle {
+    position: absolute;
+    width: 589px;
+    height: 57px;
+    left: 490px;
+    top: 327px;
+
+    /* Discriptor */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 57px;
+    text-align: center;
+    /* белый */
+
+    color: #FFFFFF;
+
+
+}
+
+.intro__span {
+    position: absolute;
+    width: 315.16px;
+    height: 25px;
+    left: 624px;
+    top: 215px;
+
+    /* Text 18 px */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    /* белый */
+
+    color: #FFFFFF;
+
+}
+
+.btn_intro {
+
+    position: absolute;
+    width: 100.05px;
+    height: 100px;
+    left: 606px;
+    top: 422px;
+}
+
+.intro__btns {
+    position: absolute;
+    width: 258px;
+    height: 25px;
+    left: 655.58px;
+    top: 481px;
+
+    /* Text 18 px */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    /* белый */
+
+    color: #FFFFFF;
+}
+
+.icon_intro {
+    position: absolute;
+    width: 166.12px;
+    height: 30.03px;
+    left: 686px;
+    top: 700px;
+}
+
+
+/* services */
+.services {
+    margin: 150px 0;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    /* серый */
+
+    color: #868585;
+
+
+}
+
+.services__iformation {
+    column-gap: 30px;
+}
+
+
+.namverOne__text>h2 {
+    position: absolute;
+    width: 510px;
+    height: 25px;
+    left: 180px;
+    top: 1000px;
+
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    /* черный */
+
+    color: #303030;
+
+}
+
+.namverOne__text>span {
+    position: absolute;
+    width: 510px;
+    height: 76px;
+    left: 180px;
+    top: 1050px;
+
+    /* Text 14 px */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+.namverTwo__text>h2 {
+    position: absolute;
+    width: 510px;
+    height: 25px;
+    left: 180px;
+    top: 1175px;
+
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    /* черный */
+
+    color: #303030;
+
+}
+
+.namverTwo__text>span {
+    position: absolute;
+    width: 510px;
+    height: 76px;
+    left: 180px;
+    top: 1250px;
+
+    /* Text 14 px */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+
+.namberThree__text>h2 {
+    position: absolute;
+    width: 510px;
+    height: 25px;
+    left: 180px;
+    top: 1375px;
+
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    /* черный */
+
+    color: #303030;
+
+}
+
+.namberThree__text>span {
+    position: absolute;
+    width: 510px;
+    height: 76px;
+    left: 180px;
+    top: 1430px;
+
+    /* Text 14 px */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+.namberFour__text>h2 {
+    position: absolute;
+    width: 510px;
+    height: 25px;
+    left: 180px;
+    top: 1555px;
+
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    /* черный */
+
+    color: #303030;
+}
+
+.namberFour__text>span {
+    position: absolute;
+    width: 510px;
+    height: 76px;
+    left: 180px;
+    top: 1610px;
+
+    /* Text 14 px */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+.bagraund {
+    position: absolute;
+    width: 600px;
+    height: 670px;
+    left: 759px;
+    top: 1033px;
+
+    background: url(./accerts/Rectangle\ 7.jpg);
+}
+
+.tarifs {
+    position: absolute;
+    left: 182px;
+    top: 1890px;
+
+    /* Заголовок H1 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    /* серый */
+
+    color: #868585;
+}
+
+.componets {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+.class {
+
+    position: absolute;
+    width: 235px;
+    height: 114px;
+    left: 265px;
+    top: 250px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* черный */
+
+    color: #303;
+}
+
+.haus {
+    position: absolute;
+    width: 235px;
+    height: 200px;
+    left: -280px;
+    top: -20px;
+    background: url(./accerts/haus.jpg);
+
+}
+
+.car {
+    position: absolute;
+    width: 600px;
+    height: 130px;
+    left: 300px;
+    top: -155px;
+
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 18px;
+    /* line-height: 25px; */
+
+    /* черный */
+
+    color: #303030;
+}
+
+.car__img {
+    position: absolute;
+    width: 600px;
+    height: 525px;
+    left: 1px;
+    top: 150px;
+    background: url(./accerts/car.jpg);
+
+
+}
+
+.container__item {
+    display: flex;
+    gap: 40px;
+
+}
+
+.tag {
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+
+.item_tag {
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+.item_p {
+    /* Text 14 px */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+.item_row {
+    width: 235px;
+    height: 109.44px;
+    margin-top: 400px;
+}
+
+
+.container__items {
+    display: flex;
+    gap: 40px;
+
+}
+
+.tags {
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+
+.item_tags {
+    /* Заголовок H2 */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+.item_ps {
+    /* Text 14 px */
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* черный */
+
+    color: #303030;
+}
+
+.item_rows {
+    width: 235px;
+    height: 109.44px;
+    margin-top: 80px;
+}
+
+.img_bac {
+    position: relative;
+    background: url(./accerts/Rectangle\ 10.jpg);
+    width: 100%;
+    height: 500px;
+    margin-top: 1950px;
+}
+
+.items_option {
+    width: 673px;
+    height: 228px;
+    top: 3050px;
+    margin-left: 250px;
+    position: absolute;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: center;
+   
+
+    /* белый */
+
+    color: #FFFFFF;
+
+}
+
+
+.dasdas{
+    width: 100%;
+    
+    margin-top: 5000px;
+}
